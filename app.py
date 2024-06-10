@@ -30,8 +30,3 @@ start_button = st.button('Ejecutar')
 if start_button:
     st.write(f'Experimento con {number_of_trials} intentos en curso.')
     mean = toss_coin(number_of_trials)
-start_button = st.button('Ejecutar')
-
-if start_button:
-    st.write(f'Experimento con {number_of_trials} intentos en curso.')
-
